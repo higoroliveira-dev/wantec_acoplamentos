@@ -1,7 +1,10 @@
 <?php
-class ProductController {
-    public function index() {
-        $context = [
+class ProductController 
+{
+    public function index() 
+    {
+        $context = 
+        [
             'title' => 'Produto',
             'context' => 'Produto'
         ];

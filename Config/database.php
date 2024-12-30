@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__ . '/Config/config.php';
+require_once __DIR__ . '/config.php';
+require_once ROOT . '/Core/functionModel.php';
 class ModelConfig 
 {
     protected $db;
@@ -13,30 +14,40 @@ class ModelConfig
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             return $pdo;
-        } catch (PDOException $e) {
+        } catch (PDOException $e) 
+        {
             die('Erro na conexão com o banco de dados: ' . $e->getMessage());
         }
     }
 
-    public function fetchAll($table, $conditions = [])
+    public function selectRecord($table, $columns = ['*'], $conditions = [], $orderby = [])
     {
         try {
             $db = $this->getDatabaseConnection();
-            $sql = "SELECT * FROM $table";
+            $a = new CoreFunctionModel();
+            $sql = "SELECT " . $a->traitColumn($columns) . " FROM $table";
     
-            if (!empty($conditions)) {
+            if (!empty($conditions)) 
+            {
                 $sql .= ' WHERE ' . implode(' AND ', array_map(fn($key) => "$key = :$key", array_keys($conditions)));
+            }
+
+            if (!empty($orderby)) 
+            {
+                $sql .= " ORDER BY $orderby";
             }
     
             $stmt = $db->prepare($sql);
             $stmt->execute($conditions);
             return $stmt->fetchAll();
-        } catch (Exception $e) {
+        } catch (Exception $e) 
+        {
             die('Erro ao buscar registros: ' . $e->getMessage());
         }
     }
 
-    public function updateRecord($table, $data, $conditions) {
+    public function updateRecord($table, $data, $conditions)
+    {
         try {
             $db = $this->getDatabaseConnection();
             $setClause = implode(', ', array_map(fn($key) => "$key = :$key", array_keys($data)));
@@ -46,23 +57,27 @@ class ModelConfig
             $stmt = $db->prepare($sql);
     
             // Vincular os valores para SET
-            foreach ($data as $key => $value) {
+            foreach ($data as $key => $value) 
+            {
                 $stmt->bindValue($key, $value);
             }
     
             // Vincular os valores para WHERE
-            foreach ($conditions as $key => $value) {
+            foreach ($conditions as $key => $value) 
+            {
                 $stmt->bindValue("where_$key", $value);
             }
     
             return $stmt->execute();
-        } catch (Exception $e) {
+        } catch (Exception $e) 
+        {
             $db = null;
             die('Erro ao atualizar registro: ' . $e->getMessage());
         }
     }
 
-    function insertRecord($table, $data) {
+    function insertRecord($table, $data) 
+    {
         try {
             $db = $this->getDatabaseConnection();
             $columns = implode(', ', array_keys($data));
@@ -72,12 +87,14 @@ class ModelConfig
             $stmt = $db->prepare($sql);
     
             // Vincular os valores para INSERT
-            foreach ($data as $key => $value) {
+            foreach ($data as $key => $value)
+            {
                 $stmt->bindValue($key, $value);
             }
     
             return $stmt->execute();
-        } catch (Exception $e) {
+        } catch (Exception $e) 
+        {
             $db = null;
             die('Erro ao inserir registro: ' . $e->getMessage());
         }
@@ -89,7 +106,8 @@ class ModelConfig
             $db = $this->getDatabaseConnection();
             $stmt = $db->prepare($query);
             return $stmt->execute();
-        } catch (Exception $e) {
+        } catch (Exception $e) 
+        {
             $db = null;
             die('Erro ao atualizar registro: ' . $e->getMessage());
         }

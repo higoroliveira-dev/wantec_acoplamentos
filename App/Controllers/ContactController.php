@@ -1,7 +1,10 @@
 <?php
-class ContactController {
-    public function index() {
-        $context = [
+class ContactController 
+{
+    public function index() 
+    {
+        $context = 
+        [
             'title' => 'Contato',
             'context' => 'Contato'
         ];

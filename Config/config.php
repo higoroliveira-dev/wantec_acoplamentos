@@ -4,3 +4,5 @@ define('DB_HOST', '89.117.7.52');
 define('DB_USER', 'u861543184_model_homepage');
 define('DB_PWD', '7$nMy61tX8s@');
 define('DB_NAME', 'u861543184_model_homepage');
+
+require_once ROOT . '/Config/database.php';

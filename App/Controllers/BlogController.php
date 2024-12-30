@@ -1,7 +1,9 @@
 <?php
 class BlogController {
-    public function index() {
-        $context = [
+    public function index() 
+    {
+        $context = 
+        [
             'title' => 'Blog',
             'context' => 'Blog'
         ];

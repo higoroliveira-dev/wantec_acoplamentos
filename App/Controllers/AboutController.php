@@ -1,6 +1,7 @@
 <?php
 class AboutController {
-    public function index() {
+    public function index()
+    {
         /*$response = [
             'status' => 'success',
             'message' => 'Bem-vindo à página de contato!',
