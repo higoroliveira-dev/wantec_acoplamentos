@@ -18,7 +18,7 @@ spl_autoload_register(function ($className) {
 });
 
 // Interpretar a rota atual
-$route = $_SERVER['REQUEST_URI'];
+$route = $_SERVER['REQUEST_URI'];  
 
 // Verificar se a rota existe
 if (isset($routes[$route])) {
