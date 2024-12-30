@@ -1,11 +1,6 @@
 <?php
-class ModelConfig 
-{
-    protected $db;
-
-    public function __construct()
-    {
-        $this->db = new PDO('mysql:host=localhost;dbname=seu_banco', 'usuario', 'senha');
-    }
-}
-?>
+define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+define('DB_HOST', '89.117.7.52');
+define('DB_USER', 'u861543184_model_homepage');
+define('DB_PWD', '7$nMy61tX8s@');
+define('DB_NAME', 'u861543184_model_homepage');
