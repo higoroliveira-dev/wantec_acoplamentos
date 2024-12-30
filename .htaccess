@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Verifica se o arquivo ou diretório solicitado realmente existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redireciona todas as requisições para o index.php dentro da pasta public
+RewriteRule ^(.*)$ index.php [QSA,L]
