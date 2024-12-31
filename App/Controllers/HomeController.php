@@ -1,6 +1,6 @@
 <?php
-require_once ROOT . '/Config/config.php';
-require_once ROOT . '/App/Model/HomeModel.php';
+include ROOT . '/Config/config.php';
+include ROOT . '/App/Model/HomeModel.php';
 
 class HomeController 
 {
@@ -8,9 +8,9 @@ class HomeController
     {
         $context = 
         [
-            'title' => 'index',
-            'context' => 'Index'
+            'title' => "WANTEC Acoplamentos",
+            'context' => ""
         ];
-        include __DIR__ . '/../Views/master.php';
+        include ROOT . '/App/Views/master.php';
     }
 }
