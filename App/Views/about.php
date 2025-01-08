@@ -68,7 +68,7 @@
                         <div class="icon">
                             <i class="flaticon-sketch"></i>
                         </div>
-                        <h3>Experiência</h3>
+                        <h3>Experiência</h3>   
                         <p>Com mais de 20 anos no mercado, garantindo a satisfação do cliente.</p>
                     </div>
                 </div>

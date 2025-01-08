@@ -197,7 +197,7 @@
         <div class="container">
             <div class="gallery_nav">
                 <div class="row align-items-center">
-                    <div class="col-lg-8 col-md-6">
+                    <div class="col-lg-8 col-md-6">     
                         <h3 class="gallery_title">Consulte o produto desejado</h3>
                     </div>
                     <div class="col-lg-4 col-md-6">
