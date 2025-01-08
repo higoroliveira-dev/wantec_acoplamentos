@@ -9,7 +9,8 @@ class HomeController
         $context = 
         [
             'title' => "WANTEC Acoplamentos",
-            'context' => ""
+            'context' => "",
+            'active_home' => 'active',
         ];
         include ROOT . '/App/Views/master.php';
     }

@@ -10,9 +10,10 @@ class AboutController {
         header('Content-Type: application/json');
         echo json_encode($response);*/
         $context = [
-            'title' => 'Sobre',
-            'context' => 'Sobre a empresa'
+            'title' => 'Sobre - WANTEC',
+            'context' => 'Sobre a empresa',
+            'active_about' => 'active',
         ];
-        include __DIR__ . '/../Views/master.php';
+        include __DIR__ . '/../Views/about.php';
     }
 }

@@ -6,7 +6,8 @@ class ContactController
         $context = 
         [
             'title' => 'Contato',
-            'context' => 'Contato'
+            'context' => 'Contato',
+            'active_contact' => 'active',
         ];
         include __DIR__ . '/../Views/master.php';
     }
