@@ -1,139 +1,63 @@
-<!-- footer_start  -->
-<footer class="footer">
-    <div class="download_brochure">
-        <div class="container">
-            <div class="bordered_1px">
-                    <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                    <div class="footer_logo">
-                                            <a href="#">
-                                                <img src="./Public/site/img/footer_logo.png" alt="">
-                                            </a>
-                                        </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="download_btn">
-                                    <a href="#"> <img src="./Public/site/img/icon/down.svg" alt=""> Download Brochure</a>
-                                </div>
-                            </div>
-                        </div>
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-light mb-4">Quem Somos</h4>
+                <p class="mb-2">Há mais de duas décadas, nossa empresa tem se consolidado como referência no fornecimento de acoplamentos de alta qualidade, entregando soluções sob medida para os mais diversos setores industriais.</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
-            
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-light mb-4">Horário</h4>
+                <h6 class="text-light">Segunda à Sexta exceto Feriado</h6>
+                <p class="mb-4">08h - 18h</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-light mb-4">Produtos</h4>
+                <a class="btn btn-link" href="">Acoplamentos Flexíveis</a>
+                <a class="btn btn-link" href="">Acoplamentos Rígidos</a>
+                <a class="btn btn-link" href="">Acoplamentos de Engrenagem </a>
+                <a class="btn btn-link" href="">Acoplamentos Elásticos</a>
+                <a class="btn btn-link" href="">Acoplamentos de Grade</a>
+                <a class="btn btn-link" href="">Acoplamentos de Disco</a>
+            </div>
         </div>
     </div>
-    <div class="footer_top" style="padding-top: 0 !important; padding-bottom: 40px !important; text-align: center !important">
-        <div class="container">
+    <div class="container">
+        <div class="copyright">
             <div class="row">
-                <div class="col-xl-12 col-md-12 col-lg-12">
-                    <div class="footer_widget">
-                        <div class="socail_links">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-youtube-play"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Wantec Acoplamentos</a>, Todos os direitos reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer authorâ€™s credit link/attribution link/backlink. If you'd like to use the template without the footer authorâ€™s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Mantido por <a class="border-bottom" href="https://higoroliveira.com.br">Wecoder</a></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="copy-right_text">
-        <div class="container">
-            <div class="footer_border"></div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <p class="copy_right text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Personalizado por <a href="https://higoroliveira.com.br" target="_blank">Higor Oliveira</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- footer_end  -->
+</div>
+<!-- Footer End -->
 
-<!-- JS here -->    
-<script src="./Public/site/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="./Public/site/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./Public/site/js/popper.min.js"></script>
-<script src="./Public/site/js/bootstrap.min.js"></script>
-<script src="./Public/site/js/owl.carousel.min.js"></script>
-<script src="./Public/site/js/isotope.pkgd.min.js"></script>
-<script src="./Public/site/js/ajax-form.js"></script>
-<script src="./Public/site/js/waypoints.min.js"></script>
-<script src="./Public/site/js/jquery.counterup.min.js"></script>
-<script src="./Public/site/js/imagesloaded.pkgd.min.js"></script>
-<script src="./Public/site/js/scrollIt.js"></script>
-<script src="./Public/site/js/jquery.scrollUp.min.js"></script>
-<script src="./Public/site/js/wow.min.js"></script>
-<script src="./Public/site/js/gijgo.min.js"></script>
-<script src="./Public/site/js/nice-select.min.js"></script>
-<script src="./Public/site/js/jquery.slicknav.min.js"></script>
-<script src="./Public/site/js/jquery.magnific-popup.min.js"></script>
-<script src="./Public/site/js/plugins.js"></script>
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./Public/site/lib/wow/wow.min.js"></script>
+<script src="./Public/site/lib/easing/easing.min.js"></script>
+<script src="./Public/site/lib/waypoints/waypoints.min.js"></script>
+<script src="./Public/site/lib/counterup/counterup.min.js"></script>
+<script src="./Public/site/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="./Public/site/lib/tempusdominus/js/moment.min.js"></script>
+<script src="./Public/site/lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="./Public/site/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-
-<!--contact js-->
-<script src="./Public/site/js/contact.js"></script>
-<script src="./Public/site/js/jquery.ajaxchimp.min.js"></script>
-<script src="./Public/site/js/jquery.form.js"></script>
-<script src="./Public/site/js/jquery.validate.min.js"></script>
-<script src="./Public/site/js/mail-script.js"></script>
-
-
+<!-- Template Javascript -->
 <script src="./Public/site/js/main.js"></script>
-
-
-
-<!-- Modal -->
-<div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-        <div class="serch_form">
-            <input type="text" placeholder="search" >
-            <button type="submit">search</button>
-        </div>
-        </div>
-    </div>
-    </div>
-<script>
-    $('#datepicker').datepicker({
-        iconsLibrary: 'fontawesome',
-        icons: {
-            rightIcon: '<span class="fa fa-calendar-o"></span>'
-        }
-    });
-    $('#datepicker2').datepicker({
-        iconsLibrary: 'fontawesome',
-        icons: {
-            rightIcon: '<span class="fa fa-calendar-o"></span>'
-        }
-
-    });
-</script>

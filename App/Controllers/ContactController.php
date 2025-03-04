@@ -5,7 +5,7 @@ class ContactController
     {
         $context = 
         [
-            'title' => 'Contato',
+            'title' => 'Contato - WANTEC',
             'context' => 'Contato',
             'active_contact' => 'active',
         ];

@@ -4,7 +4,7 @@ class BlogController {
     {
         $context = 
         [
-            'title' => 'Blog',
+            'title' => 'Blog - WANTEC',
             'context' => 'Blog'
         ];
         include __DIR__ . '/../Views/master.php';

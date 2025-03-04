@@ -1,4 +1,6 @@
 <?php
+ini_set('default_charset','UTF-8');
+
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('DB_HOST', '89.117.7.52');
 define('DB_USER', 'u861543184_model_homepage');

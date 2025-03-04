@@ -5,7 +5,7 @@ class ProductController
     {
         $context = 
         [
-            'title' => 'Produto',
+            'title' => 'Produto - WANTEC',
             'context' => 'Produto',
             'active_product' => 'active',
         ];
