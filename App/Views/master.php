@@ -15,7 +15,7 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./Public/site/img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="./Public/site/img/product/1a.jpg" alt="" width="1920" height="1080">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./Public/site/img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="./Public/site/img/product/4a.jpg" alt="" width="1920" height="1080">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./Public/site/img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="./Public/site/img/product/1a.jpg" alt="" width="1920" height="1080">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./Public/site/img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="./Public/site/img/product/4a.jpg" alt="" width="1920" height="1080">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 text-center wow fadeIn" data-wow-delay="0.7s">
                     <i class="fa fa-wrench fa-2x text-white mb-4"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">+5000</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">+2500</h2>
                     <p class="text-white mb-0">Projetos Finalizados</p>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                                 <i class="fa fa-water fa-2x text-primary"></i>
                             </div>
                             <h4 class="mb-3">Acoplamentos Flexíveis</h4>
-                            <p>Ideais para absorver desalinhamentos e vibrações, aumentando a vida útil dos equipamentos.</p>
+                            <p>Ideais para absorver desalinhamentos e vibrações, aumentando a vida útil.</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Serviço de qualidade</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Cliente Satisfeito</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Pós Vendas Personalizado</p>
@@ -220,8 +220,8 @@
                             <div class="d-flex align-items-center justify-content-c enter border border-5 border-white mb-4" style="width: 75px; height: 75px;">
                                 <i class="fa fa-shower fa-2x text-primary"></i>
                             </div>
-                            <h4 class="mb-3">Acoplamentos de Engrenagem</h4>
-                            <p>Projetados para suportar altas cargas e proporcionar maior resistência mecânica.</p>
+                            <h4 class="mb-3">Acoplamentos Engrenagem</h4>
+                            <p>Projetados para suportar altas cargas e proporcionar maior resistência.</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Serviço de qualidade</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Cliente Satisfeito</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Pós Vendas Personalizado</p>
@@ -232,7 +232,7 @@
                                 <i class="fa fa-tint fa-2x text-primary"></i>
                             </div>
                             <h4 class="mb-3">Acoplamentos Elásticos</h4>
-                            <p>Reduzem impactos e amortecem vibrações, melhorando o desempenho dos sistemas.</p>
+                            <p>Reduzem impactos e amortecem vibrações, melhorando o desempenho.</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Serviço de qualidade</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Cliente Satisfeito</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Pós Vendas Personalizado</p>
@@ -311,13 +311,16 @@
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Seu Nome" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" name="name" placeholder="Seu Nome" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Seu Email" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" name="mobile-phone" placeholder="(XX) 00000-0000" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-12">
+                                    <input type="email" class="form-control border-0" name="email" placeholder="Seu Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Observação" height="3"></textarea>
+                                    <textarea class="form-control border-0" name="observation" placeholder="Observação" height="3"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>

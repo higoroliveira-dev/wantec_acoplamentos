@@ -3,10 +3,11 @@ $route = $_SERVER['REQUEST_URI'];
 $routes = 
 [
     '/' => ['controller' => 'HomeController', 'action' => 'index'],
-    '/sobre' => ['controller' => 'AboutController', 'action' => 'index'],
+    '/quem-somos' => ['controller' => 'AboutController', 'action' => 'index'],
     '/produtos' => ['controller' => 'ProductController', 'action' => 'index'],
     '/contato' => ['controller' => 'ContactController', 'action' => 'index'],
     '/blog' => ['controller' => 'BlogController', 'action' => 'index'],
+    '/contato/enviar' => ['controller' => 'ContactController', 'action' => 'email'],
 ];
 
 // Autoload de classes

@@ -10,7 +10,7 @@ class AboutController {
         header('Content-Type: application/json');
         echo json_encode($response);*/
         $context = [
-            'title' => 'Sobre - WANTEC',
+            'title' => 'Sobre',
             'context' => 'Sobre a empresa',
             'active_about' => 'active',
         ];

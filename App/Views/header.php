@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title><?php echo $context['title'] ?></title>
+<title>WANTEC - <?php echo $context['title'] ?></title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="refresh" content="50000">
