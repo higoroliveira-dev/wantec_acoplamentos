@@ -50,14 +50,15 @@
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./Public/site/lib/wow/wow.min.js"></script>
-<script src="./Public/site/lib/easing/easing.min.js"></script>
-<script src="./Public/site/lib/waypoints/waypoints.min.js"></script>
-<script src="./Public/site/lib/counterup/counterup.min.js"></script>
-<script src="./Public/site/lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="./Public/site/lib/tempusdominus/js/moment.min.js"></script>
-<script src="./Public/site/lib/tempusdominus/js/moment-timezone.min.js"></script>
-<script src="./Public/site/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="../Public/site/lib/wow/wow.min.js"></script>
+<script src="../Public/site/lib/easing/easing.min.js"></script>
+<script src="../Public/site/lib/waypoints/waypoints.min.js"></script>
+<script src="../Public/site/lib/counterup/counterup.min.js"></script>
+<script src=".../Public/site/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../Public/site/lib/tempusdominus/js/moment.min.js"></script>
+<script src="../Public/site/lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="../Public/site/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="../Public/js/sweetalert2-11.js"></script>
 
 <!-- Template Javascript -->
-<script src="./Public/site/js/main.js"></script>
+<script src="../Public/site/js/main.js"></script>

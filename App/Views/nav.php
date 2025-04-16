@@ -13,7 +13,7 @@
             <a href="" class="navbar-brand m-0 p-0">
                 <!-- <h1 class="text-primary m-0">Wantec</h1> -->
                 <h1 class="text-primary m-0">
-                    <img src="./Public/site/img/logo-200-bg.png" style="padding: 25px;" width="140" />
+                    <img src="../Public/site/img/logo-200-bg.png" style="padding: 25px;" width="140" />
                 </h1>
             </a>
         </div>
@@ -40,7 +40,7 @@
             <!-- Logo -->
              <!-- <h1 class="text-primary m-0">Wantec</h1> -->
              <h1 class="text-primary m-0">
-                <img src="./Public/site/img/logo-200-bg.png" style="padding: 25px;" width="140" />
+                <img src="../Public/site/img/logo-200-bg.png" style="padding: 25px;" width="140" />
              </h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
